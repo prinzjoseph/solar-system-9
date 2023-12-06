@@ -42,7 +42,7 @@ pipeline {
 
           } else {
             echo 'Repo does not exists - Cloning the repo'
-            sh 'git clone -b main https://github.com/mdhack0316/gitops-argocd'
+            sh 'git clone -b main https://github.com/prinzjoseph/gitops-argocd'
           }
         }
       }
